@@ -25,7 +25,7 @@ describe('seal', function() {
       
       it('should generate a token', function() {
         expect(token.length).to.be.above(0);
-        expect(token.substr(0, 9)).to.equal('v1.local.');
+        expect(token.substr(0, 9)).to.equal('v2.local.');
       });
       
     });
